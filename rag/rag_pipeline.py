@@ -36,12 +36,12 @@ Jibu kwa Kiswahili fasaha na sahihi, kulingana na muktadha uliotolewa. Lakini un
         ]
     )
 
-    answer = response['choices'][0]['message']['content']
+    answer = response.choices[0].message.content
 
     # === Optional: append sources ===
     if show_sources:
         sources = "\n\n".join(
-            f"🔗 {chunk.get('source_type')}: {chunk.get('source')}" for chunk in retrieved_chunks
+            f"🔗 {chunk.get('source')}" for chunk in retrieved_chunks
         )
         answer += f"\n\nChanzo:\n{sources}"
 

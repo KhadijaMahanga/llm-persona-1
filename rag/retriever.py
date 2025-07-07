@@ -6,11 +6,9 @@ from sentence_transformers import SentenceTransformer
 # === Load model ===
 model = SentenceTransformer("sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2")
 
-# === Load FAISS index ===
-index = faiss.read_index("index.faiss")
+index = faiss.read_index("rag/index.faiss")
 
-# === Load metadata ===
-with open("chunk_metadata.pkl", "rb") as f:
+with open("rag/chunk_metadata.pkl", "rb") as f:
     chunk_metadata = pickle.load(f)
 
 # === Retrieval function ===
