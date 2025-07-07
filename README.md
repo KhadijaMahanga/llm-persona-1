@@ -1,6 +1,8 @@
-# 🤖 Swahili Pregnancy Chatbot (Trimester 1)
+# 🤖 🤰 Mshauri wa Mama Mjamzito na Mtoto (Miezi 3 ya Kwanza ya Ujauzito)
 
-This is a Retrieval-Augmented Generation (RAG) chatbot that answers Swahili questions about the first trimester of pregnancy using a local vector store and OpenAI GPT-4.
+This is a Retrieval-Augmented Generation (RAG) chatbot that answers Swahili questions about the first trimester of pregnancy using a local vector store and OpenAI GPT-3.
+
+[![Demo](07.07.2025_09.13.21_REC.gif "Streamlit Chat App - Chat Interface of our lLM")](.)
 
 ## 💡 Features
 
