@@ -1,0 +1,8 @@
+openai
+streamlit
+faiss-cpu
+sentence-transformers
+pandas
+openai-whisper
+yt-dlp
+requests
