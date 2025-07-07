@@ -24,7 +24,7 @@ Muktadha kutoka kwenye vyanzo vya kuaminika:
 Swali:
 {user_query}
 
-Jibu kwa Kiswahili fasaha na sahihi, kulingana na muktadha uliotolewa. Lakini unaweza kuongeza maarifa mengine kutoka ujuzi wako ikiwa inahitajika. Kumbuka swali ni kuhusu afya ya uzazi na ujauzito katika miezi mitatu ya kwanza, hivyo jibu linapaswa kuzingatia hilo.
+Jibu kwa Kiswahili fasaha na sahihi, kulingana na muktadha uliotolewa. Lakini unaweza kuongeza maarifa mengine kutoka ujuzi wako ikiwa inahitajika. Kumbuka swali ni kuhusu afya ya uzazi na ujauzito katika miezi mitatu ya kwanza, hivyo jibu linapaswa kuzingatia hilo na pia jibu lizingatie mandhari ya jamii za kiswahili.
 """
 
     # === Step 3: Send to LLM ===
