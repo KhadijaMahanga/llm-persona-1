@@ -2,7 +2,7 @@ import os
 
 from dotenv import load_dotenv
 from openai import OpenAI
-from retriever import retrieve_chunks
+from rag.retriever import retrieve_chunks
 
 load_dotenv()
 api_key = os.getenv("OPENAI_API_KEY")
@@ -24,7 +24,7 @@ Muktadha kutoka kwenye vyanzo vya kuaminika:
 Swali:
 {user_query}
 
-Jibu kwa Kiswahili fasaha na sahihi, kulingana na muktadha uliotolewa. Lakini unaweza kuongeza maarifa mengine kutoka ujuzi wako ikiwa inahitajika
+Jibu kwa Kiswahili fasaha na sahihi, kulingana na muktadha uliotolewa. Lakini unaweza kuongeza maarifa mengine kutoka ujuzi wako ikiwa inahitajika. Kumbuka swali ni kuhusu afya ya uzazi na ujauzito katika miezi mitatu ya kwanza, hivyo jibu linapaswa kuzingatia hilo.
 """
 
     # === Step 3: Send to LLM ===
