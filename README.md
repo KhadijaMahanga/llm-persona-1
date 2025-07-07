@@ -14,7 +14,11 @@ This is a Retrieval-Augmented Generation (RAG) chatbot that answers Swahili ques
 ## 🚀 To Run
 
 ```bash
-pip install -r requirements.txt
-python rag/embed_content.py      # One-time setup
-streamlit run app/streamlit_app.py
+- pip install -r requirements.txt
+- create .env file use .env.template 
+- python rag/embed_content.py      # One-time setup
+- python rag/retriever.py
+- python rag/rag_pipeline #here you test your rag pipeline
+
+- streamlit run app.py #this is to run a chat user interface
 ```
