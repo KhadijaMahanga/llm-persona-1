@@ -6,3 +6,5 @@ pandas
 openai-whisper
 yt-dlp
 requests
+bs4
+python-dotenv
