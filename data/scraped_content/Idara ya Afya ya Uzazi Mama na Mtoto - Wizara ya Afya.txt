@@ -1,0 +1,1 @@
+Instagram content cannot be scraped directly. Please use Instagram API or manual methods.
